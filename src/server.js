@@ -27,7 +27,7 @@ server.use(morgan("dev"))
 server.use("/", ruta);
 
 server.use("/producto", rutaProducto);
-server.use("/usuarios", rutaUsuario);
+server.use("/usuario", rutaUsuario);
 server.use("/pago", rutaMetoPago);
 
 server.set("view engine", "ejs");

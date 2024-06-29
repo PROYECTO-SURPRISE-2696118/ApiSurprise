@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/PROYECTO-SURPRISE-2696118/API_SURPRISE.git"
+    "url": ""
   },
   "author": "jhoan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PROYECTO-SURPRISE-2696118/API_SURPRISE.git"
+    "url": ""
   },
-  "homepage": "https://github.com/PROYECTO-SURPRISE-2696118/API_SURPRISE.git",
+  "homepage": "",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "colors": "^1.4.0",

@@ -49,7 +49,7 @@ export const crearUsuario = async (req, res)=>{
         const respuesta = await pool.query (`CALL SP_CREAR_USUARIO (?,?,?,?,?,?,?)`, [identificacion, nombres, telefono, correo, contrasena, rol, estado]);
             res.json({"respuesta": "el usuario ha sido creado"})
     } catch (error) {
-        // res.json({"error": "el usuario no ha sido creado"})
+        res.json({"error": "el usuario no ha sido creado"})
         console.log(error);
     }
 }
